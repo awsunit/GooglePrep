@@ -1,12 +1,13 @@
 /*
-    Palindromes
-
+    input driven program
+   
     Given a line of N blocks:
     for q questions:
+        // for the blocks in the ranges of 
         range_of_blocks = {Li,Ri}
 
-        if(makesPalindrome(L,R,blocks)
-            canAnswer++;
+        if (range of blocks can be rearranged into a palindrome)
+            count++
 */
 #include <cerrno>
 #include <iostream>
