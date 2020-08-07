@@ -2,9 +2,9 @@
 A collection of solved coding questions, written in Python, C++, and Java. 
 
 ## Navigating
-###src
+### src
 contains Java solutions
-###py_a
+### py_a
 contains Python 3 solutions
-###cplus_a
+### cplus_a
 I think you get it by now
