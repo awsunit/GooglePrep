@@ -57,8 +57,6 @@ class LCP {
         List<Integer> rl = autocomplete(l);
         rl.forEach(System.out::println);
     }
-    
-// }
 
 }
 
