@@ -1,2 +1,6 @@
 # Project exclude paths
 /out/
+/dst/
+/cplus_a/*.exe
+/src/ocient.java
+/cplus_a/Ocient.cpp
