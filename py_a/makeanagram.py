@@ -15,13 +15,8 @@ def p(a):
 def makeAnagram(a, b):
 
     # get counts
-
     a_counts = Counter(ascii_lowercase)
     b_counts = Counter(ascii_lowercase)
-
-    # p(a_counts)
-    # p(b_counts)
-
     a_counts.update(a)
     b_counts.update(b)
 
@@ -39,19 +34,9 @@ def makeAnagram(a, b):
 
     return count
 
-    # we are trying to map counts of equal characters
-    
-
-    # abc = zip_longest(ac, bc)
-
-    # f = list(filter(lambda x, y : ))
 
 if __name__ == '__main__':
     fptr = open('lsr.txt', 'w')
-
-    # a = input()
-
-    # b = input()
     a = "ccc"
     b = "ccce"
 

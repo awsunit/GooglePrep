@@ -5,7 +5,6 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-
         map = {}
 
         # map
@@ -14,8 +13,6 @@ class Solution(object):
                 map[i] += 1
             else:
                 map[i] = 1
-
-        # [print(k,map[k]) for k in map]
 
         # itemgetter, and functions in the operator module in general, are fast
         r = sorted(map, key=map.get, reverse=True)
