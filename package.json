@@ -1,0 +1,24 @@
+{
+  "dependencies": {},
+  "name": "googleprep",
+  "description": "A collection of solved coding questions, written in Python, C++, and Java.",
+  "version": "1.0.0",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"hola\"",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsunit/GooglePrep.git"
+  },
+  "keywords": [
+    "cantstop"
+  ],
+  "author": "skittlz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awsunit/GooglePrep/issues"
+  },
+  "homepage": "https://github.com/awsunit/GooglePrep#readme"
+}

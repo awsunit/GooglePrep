@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+
+<body>
+
+    <!-- hangman visual needs -->
+    <!-- how are we laying out page -->
+    <!-- two columns, prisoner on left, input & word stacked on right -->
+    <div class="hang-man">
+        <div class="prisoner">
+            <!-- place for hangman to be drawn -->
+            <svg>
+                <circle cx='50' cy='50' r='50' stroke='black' id='head'></circle>
+                <line x1='50' y1='75' x2='50' y2='175' stroke='black' id='body'></line>
+                <line id='left-arm'></line>
+                <line id='right-arm'></line>
+                <line id='left-leg'></line>
+                <line id='right-leg'></line>
+            </svg>
+
+        </div>
+        <div class="input">
+            <!-- place for user to input a letter -->
+            <input type="text" name='letter' maxlength="1" pattern='[a-zA-Z]'>
+            <label for="letter">Enter a letter!</label>
+        </div>
+        <div class="prompt">Dynamically Populated?</div>
+        <div class="word">
+
+            <!-- place for the word which is filled in -->
+            <!-- dynamically filled in -->
+
+        </div>
+        
+    </div>
+    <script type='module' src='hangman.js'></script>
+</body>
+
+
+
+</html>

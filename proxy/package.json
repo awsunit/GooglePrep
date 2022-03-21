@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "express": "^4.17.1",
+        "http-proxy-middleware": "^2.0.1",
+        "morgan": "^1.10.0"
+    },
+    "name": "code",
+    "version": "1.0.0",
+    "description": "proxy for api requests",
+    "main": "index.js",
+    "author": "skittlz",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
